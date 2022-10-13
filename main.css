@@ -29,12 +29,13 @@ body {
   min-width: 50%;
   border-radius: 0 8px 8px 0;
   background-image: url(./images/image-header-mobile.jpg);
-  background-size: 96%;
+  background-size: cover;
   position: relative;
 }
 
 .layer {
-  background-color: #661996bd;
+  background-color: #8200d3;
+  opacity: 50%;
   border-radius: 0 8px 8px 0;
   position: absolute;
   top: 0;
@@ -44,11 +45,12 @@ body {
 }
 
 .content {
+  width: 50%;
   order: 1;
-  padding: 3.66rem;
+  padding: 4rem;
   display: flex;
   flex-direction: column;
-  gap: 1.22rem;
+  gap: 1.66rem;
   font-family: "Inter", sans-serif;
 }
 
@@ -64,13 +66,15 @@ h1 span {
 p {
   font-size: 15px;
   color: #ffffffbf;
+  line-height: 1.44rem;
 }
 
 .stats-container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-top: 1.66rem;
+    margin-top: 1.88rem;
+    line-height: 1.66rem;
 }
 
 .stats-container .stat {
@@ -117,6 +121,7 @@ p {
 
   .content {
     order: 2;
+    width: 100%;
     padding: 1rem 2.5rem;
   }
 
